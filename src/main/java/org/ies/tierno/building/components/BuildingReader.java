@@ -43,6 +43,7 @@ public class BuildingReader implements Reader<Building> {
         } while (number == null);
         return number;
     }
+
     public List<Apartment> readApartment() {
         List<Apartment> apartments = new ArrayList<>();
         boolean moreApartment = true;
